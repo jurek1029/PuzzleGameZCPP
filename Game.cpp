@@ -360,6 +360,7 @@ void Game::SolveStepByStep() {
 void Game::SolveStepByStepFromRNG() {
     if (moves.start == nullptr) return;
     ListNode* move = moves.Pop();
+    if (move == nullptr) return;
 
     if (move->value == -1) OnKeyPressRight();
     else if (move->value == 1) OnKeyPressLeft();
