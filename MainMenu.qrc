@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/MainMenu">
+        <file>MainMenu.cpp</file>
+        <file>MainMenu.h</file>
+    </qresource>
+</RCC>
